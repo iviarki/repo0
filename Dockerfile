@@ -1,7 +1,7 @@
 FROM ubuntu:12.04
 
 # Install dependencies
-RUN cwd
+RUN pwd
 RUN ls -la
 RUN apt-get update -y
 RUN apt-get install -y git curl apache2 php5 libapache2-mod-php5 php5-mcrypt php5-mysql
